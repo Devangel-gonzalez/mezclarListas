@@ -1,18 +1,8 @@
-## Getting Started
+Dadas dos listas de números, cada una ordenada en orden ascendente, combinarlas en una lista de resultados según su orden. Escriba el método List<Integer> merge(List<Integer>, List<Integer>). 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Pasar las dos listas como argumentos de línea de comandos. Por ejemplo:
 
-## Folder Structure
+java Mezclar "1, 4, 7, 12, 20"   "10, 15, 17, 33"
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Debe generar la siguiente lista:
+[1, 4, 7, 10, 12, 15, 17, 20, 33]
